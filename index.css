@@ -1,0 +1,82 @@
+body {
+    margin: 4px auto;
+    padding: 10px;
+    font-family: 'Agency FB', Arial, Helvetica, sans-serif; /* Set Agency FB as default */
+    max-width: 302px;
+    background-color: #1F2937;
+}
+
+p {
+    color: #5f9341;
+    font-weight: 900;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+input {
+    display: flex;
+    align-content: center;
+    align-self: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer; /* Add a pointer cursor for buttons */
+    transition: background 0.3s, transform 0.2s; /* Smooth transition */
+    font-size: larger;
+}
+
+
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2c3e50; /* Background for list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    display: flex; /* Use flexbox for list item content */
+    justify-content: space-between; /* Space between amount and type */
+}
+
+a {
+    color: #5f9341;
+    text-decoration: none; /* Remove underline from links */
+}
+
+li:hover {
+    background-color: #34495e; /* Darker background on hover */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+button {
+    width: 49%;
+}
+
